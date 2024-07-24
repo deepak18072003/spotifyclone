@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#nav>article{
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+#nav>article>.logo{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#nav>article>.logo>svg{
+    width: 110px;
+    fill: white;
+}
+#nav>article>.menu{
+    height: 100%;
+    width: 50%;
+}
+#nav>article>.menu>ol{
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#nav>article>.menu>ol>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+#nav>article>.menu>ol>li>:hover{
+    color: rgb(3, 75, 3);
+}
+#home{
+    height: 90vh;
+    width: 100%;
+    background: url("/Assets/image/bubbles-dktp.svg") center -138px / 100% 1068px no-repeat, 
+    linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#home>article{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+#home>article>.phone{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+#home>article>.phone svg{
+    height: 100%;
+    width: 100%;
+    margin-top: 26px;
+    
+}
+#home>article>.phone>.mbl-1{
+    position: absolute;
+    z-index: 1;
+    height: 568px;
+    width: 525px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin-top: 2px;
+}
+#home>article>.phone>.mbl-1 img{
+    height: 440px;
+    width: 243px;
+    margin-right: -1.5px;
+    margin-top: -6px;
+
+}
+#home>article>.text{
+    height: 100%;
+    width: 60%;
+    padding: 100px 15px 0px 0px;
+    padding-left: 120px;
+}
+#home>article>.text h1{
+    color: white;
+    font-size: 59px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: -0,05em;
+    margin-left: -110px;
+}
+#home>article>.text button{
+    height: 50px;
+    width: 180px;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 29px;
+    margin-right: 50px;
+}
+#spotify>article{
+    height: 70vh;
+    width: 100vw;
+    margin-top: 45px;
+}
+#spotify>article>.why h1{
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#spotify>article>.icon{
+    height: 50%;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#spotify>article>.icon>div{
+    height: 50%;
+    width: 100%;
+
+}
+#spotify>article>.icon>div p{
+    align-content: center;
+}
+
+
